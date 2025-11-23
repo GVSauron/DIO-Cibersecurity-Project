@@ -1,6 +1,6 @@
 # DIO-Cibersecurity-Project
 Entrega de Projeto para o bootcamp da DIO Cibersecurity
-
+# Força bruta ultilizando a ferramenta Medusa
 ## Fazendo varredura de alvos dentro da rede destino com nmap para descobrir possíveis alvos ativos e com portas abertas dentro da rede do Virtual Box:
 ``` bash
 nmap 192.168.56.103/24
@@ -31,4 +31,14 @@ Com esse comando irá listar todos os hosts encontrados nessa rede, nesse caso n
 8009/tcp open  ajp13
 8180/tcp open  unknown
 ```
+Agora que já sabemos quais portas estão abertas, é hora de explorar as vulnerabilidades, nesse caso iremos explorar um cenário onde as senhas dos serviços desse servidor serão fracas e previsivéis e utilizaremos de força bruta para tentar invadir esse host. Iremos iremos explorar conexão SSH, para teste, digite no terminal o seguinte para que se certificar se o protocolo está aceitando requisição de login(substitua o IP pelo IP da máquina em sua rede):
+```
+ssh 192.168.56.103
+```
+Caso solicite credenciais de user e password, é sinal de serviço está aceitando requisição de logins, é aqui onde iremos ultilizar a Medusa para quebrar a senha na força bruta.
+
+## Medusa
+
+
+
 
