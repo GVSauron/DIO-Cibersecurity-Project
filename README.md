@@ -44,7 +44,10 @@ ssh 192.168.56.103
 Caso solicite credenciais de user e password, é sinal de serviço está aceitando requisição de logins, é aqui onde iremos ultilizar a Medusa para quebrar a senha na força bruta.
 
 ## Medusa
-A Medusa é uma ferramente muito útil para ataques de força bruta em serviços que podem ser acessados via autenticação remota(SSH, FTP...) e suporta vários protocolos, e tem um objetivo ser muito rápida nas requisições, cabe a cada um testar a extensão da sua força. Para maiores informações pode-ser obter detalhas nesta [Documentação](http://foofus.net/goons/jmk/medusa/medusa.html)
+A Medusa é uma ferramenta muito útil para ataques de força bruta em serviços que podem ser acessados via autenticação remota(SSH, FTP...) e suporta vários protocolos, e tem um objetivo ser muito rápida nas requisições, cabe a cada um testar a extensão da sua força. Para maiores informações pode-ser obter detalhas nesta [Documentação](http://foofus.net/goons/jmk/medusa/medusa.html)
+
+## Quebrando a senha do alvo
+Primeiramente
 
 
 
