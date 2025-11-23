@@ -1,6 +1,12 @@
 # DIO-Cibersecurity-Project
 Entrega de Projeto para o bootcamp da DIO Cibersecurity
-# Força bruta ultilizando a ferramenta Medusa
+# Força bruta DIO 
+## Ferramentas e OS a serem ultilizadas
+- VirtualBox
+- Kali Linux(já vem com as ferramentas instaladas)
+- Metasploitable(máquina virtual com vulnerabilidades) [Download](https://sourceforge.net/projects/metasploitable/)
+- Nmap
+- Medusa
 ## Fazendo varredura de alvos dentro da rede destino com nmap para descobrir possíveis alvos ativos e com portas abertas dentro da rede do Virtual Box:
 ``` bash
 nmap 192.168.56.103/24
