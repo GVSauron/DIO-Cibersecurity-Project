@@ -1,6 +1,5 @@
-# DIO-Cibersecurity-Project
-Entrega de Projeto para o bootcamp da DIO Cibersecurity
-# Força bruta DIO 
+
+# Força bruta com a ferramenta Medusa
 ## Ferramentas e OS a serem ultilizadas
 - VirtualBox
 - Kali Linux(já vem com as ferramentas instaladas)
